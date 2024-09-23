@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: red;
+    
+    background-image: linear-gradient(to top right, black ,rgb(181, 42, 42) );
+
+}
+
+img.livro {
+    max-width: 25%;
+}
+
+header {
+    background-color:red;
+
+    background-image: linear-gradient(to top right, black ,rgb(87, 13, 13) );
+
+    padding: 15px 0;
+}
+
+h1 {
+    color: rgb(225, 218, 178);
+}
+
+h2 {
+    color: rgb(225, 218, 178);
+}
+
+h3, p {
+    color: rgb(225, 218, 178);
+}
+
+p {
+    font-size: 18px;
+
+    margin-bottom: 20px;
+
+    line-height: 1.6;
+}
+
+
+
+.btn-play {
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    background-color: red;
+
+    color: rgb(191, 215, 170);
+
+    text-decoration: none;
+
+    border: none;
+
+    border-radius: 5px;
+
+    transition: background-color 0.3s;
+
+    margin-bottom: 30px;
+
+    
+}
+
+.btn-play:hover {
+    background-color: rgb(237, 182, 131);
+}
+
+footer {
+    background-color: brown;
+
+    color:rgb(191, 215, 170); 
+
+    padding: 15px 0;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    margin-top: auto;
+
+    line-height: 1.6;
+
+    width: 100%;
+}
